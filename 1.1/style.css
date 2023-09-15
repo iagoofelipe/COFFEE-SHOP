@@ -1,0 +1,104 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    font-size: 15px;
+    color: rgb(131, 131, 131);
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+/* barra de navegação */
+.topbar {
+    color: white;
+    background-color: rgb(51, 25, 25);
+    display: flex;
+    text-decoration: underline;
+    padding-left: 10px;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+}
+
+.topbar-links {
+    overflow: hidden;
+    margin: auto;
+    margin-right: 0;
+    max-width: max-content;
+}
+
+.topbar-links a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    /* text-align: center; */
+    font-size: 15px;
+}
+
+.topbar-links a:hover {
+    background-color: rgb(78, 49, 49);
+    transition-duration: 400ms;
+}
+
+/* elementos centrais */
+#header-descricao {
+    padding-left: 50px;
+    color: rgb(255, 255, 255);
+    background-image: url("img/cup-of-coffee-1280537_1280.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    align-items: center;
+}
+
+#header-descricao .texto {
+    text-align: justify;
+    width: 50%;
+}
+
+#produtos {
+    /* text-align: justify; */
+    margin: 10px;
+}
+
+#produtos h1, dt {
+    color: rgb(100, 100, 100);
+    margin: 0 10px;
+}
+
+.produto {
+    width: 25%;
+    /* text-align: center; */
+    margin: 20px;
+}
+
+.produto:hover {
+    opacity: 0.5;
+    transition-duration: 400ms;
+}
+
+.produto img {
+    width: 100%;
+}
+
+.produto p, h2 {
+    margin: 0;
+}
+
+footer {
+    border-top: 5px solid rgb(78, 49, 49);
+    display: flex;
+}
+footer div {
+    width: 33%;
+}
+footer img {
+    height: 40px;
+    margin: 10px;
+    margin-top: 0;
+}

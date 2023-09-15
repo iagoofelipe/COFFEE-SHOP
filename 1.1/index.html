@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooffe Shops - Tia Rosa</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topbar">
+        <h1>COOFFE SHOPS</h1>
+        <div class="topbar-links">
+            <a href="">Home</a>
+            <a href="#produtos">Produtos</a>
+            <a href="">Contato</a>
+        </div>
+    </header>
+    <div style="height: 100px"></div>
+    <div class="container-center">
+        <section id="header-descricao">
+            <div class="texto">
+                <h1>Nosso café</h1>
+                <p>
+                    Feito com o mais puro grão, representa
+                    o que há de mais belo na experiência de tomar café,
+                    trazendo uma sensação única em cada toque.
+                </p>
+            </div>
+        </section>
+        <section id="produtos">
+            <h1 style="text-align: center;">Produtos</h1>
+            <div style="display: flex; justify-content: center;">
+                <div class="produto" onmouseenter="changeDescricao('CAPPUCCINO')">
+                    <img src="img/coffee-5495609_1280.jpg">
+                    <h2>CAPPUCCINO</h2>
+                    <p>algo</p>
+                </div>
+                <div class="produto" onmouseenter="changeDescricao('ESPRESSO')">
+                    <img src="img/coffee-4618705_1280.jpg">
+                    <h2>ESPRESSO</h2>
+                    <p>algo</p>
+                </div>
+                <div class="produto" onmouseenter="changeDescricao('AMERICANO')">
+                    <img src="img/americano.jpg">
+                    <h2>AMERICANO</h2>
+                    <p>algo</p>
+                </div>
+            </div>
+            <div>
+                <h2>conheça mais os nossos produtos</h2>
+                <p id="produto-descricao">(posicione o mouse sob uma de nossas opções para exibir a descrição)</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div style="margin: 0;">
+            <p>Formas de pagamento</p>
+            <img src="img/footer/formas-2.png">
+        </div>
+        <div>
+            <p>00.000.000/0000-00 <br> Rua São José de Algum Lugar <br> 12.345-678</p>
+        </div>
+        <div>
+            <p>Nossas Redes Sociais</p>
+            <!-- <a href="" onclick="popupMidias('WhastApp')"><img src="img/footer/whatsapp.png" alt="whatsapp"></a>
+            <a href="" onclick="popupMidias('Instagram')"><img src="img/footer/instagram.png" alt="whatsapp"></a> -->
+            <button onclick="popupMidias('WhastApp')" style="border: 0; background-color: rgba(255, 255, 255, 0);"><img src="img/footer/whatsapp.png"></button>
+            <button onclick="popupMidias('Instagram')" style="border: 0; background-color: rgba(255, 255, 255, 0);"><img src="img/footer/instagram.png"></button>
+        </div>
+    </footer>
+</body>
+</html>
