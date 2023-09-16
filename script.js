@@ -40,7 +40,7 @@ function changeDescricao(produto) {
 }
 
 // função chamada na inicialização da página
-function onload() {
+function load() {
   setProdutos();
   resize();
   
@@ -64,3 +64,4 @@ function resize() {
 }
 
 window.onresize = resize;
+window.onload = load;
