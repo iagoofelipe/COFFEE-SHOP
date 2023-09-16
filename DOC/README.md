@@ -1,2 +1,2 @@
-# Cooffee-Shop
-Site do Cooffe-Shop, voltado para a divulgação do estabelecimento e de seus produtos.
+# Coffee-Shops
+Site do Coffee-Shops, voltado para a divulgação do estabelecimento e de seus produtos.

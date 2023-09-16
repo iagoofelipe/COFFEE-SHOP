@@ -9,7 +9,9 @@ body {
 h1 {
     font-size: 30px;
 }
-
+h2 {
+    font-size: 20px;
+}
 /* barra de navegação */
 .topbar {
     color: white;
@@ -34,8 +36,6 @@ h1 {
     color: white;
     text-decoration: none;
     padding: 10px 16px;
-    /* text-align: center; */
-    font-size: 15px;
 }
 
 .topbar-links a:hover {
@@ -53,6 +53,7 @@ h1 {
     background-size: cover;
     height: 550px;
     display: flex;
+    transition-duration: 2000ms;
     align-items: center;
 }
 
@@ -62,7 +63,6 @@ h1 {
 }
 
 #produtos {
-    /* text-align: justify; */
     margin: 10px;
 }
 
@@ -73,7 +73,6 @@ h1 {
 
 .produto {
     width: 25%;
-    /* text-align: center; */
     margin: 20px;
 }
 

@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cooffe Shops - Tia Rosa</title>
+    <title>Coffee Shops - Tia Rosa</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png" type="image/png">
 </head>
-<body>
+<body onload="onload()">
     <header class="topbar">
-        <h1>COOFFE SHOPS</h1>
+        <h1>COFFEE SHOPS</h1>
         <div class="topbar-links">
             <a href="">Home</a>
             <a href="#produtos">Produtos</a>
@@ -30,19 +31,8 @@
         </section>
         <section id="produtos">
             <h1 style="text-align: center;">Produtos</h1>
-            <div style="display: flex; justify-content: center;">
-                <div class="produto" onmouseenter="changeDescricao('CAPPUCCINO')">
-                    <img src="img/coffee-5495609_1280.jpg">
-                    <h2>CAPPUCCINO</h2>
-                </div>
-                <div class="produto" onmouseenter="changeDescricao('ESPRESSO')">
-                    <img src="img/coffee-4618705_1280.jpg">
-                    <h2>ESPRESSO</h2>
-                </div>
-                <div class="produto" onmouseenter="changeDescricao('AMERICANO')">
-                    <img src="img/americano.jpg">
-                    <h2>AMERICANO</h2>
-                </div>
+            <div style="display: flex; justify-content: center;" id="div-produtos">
+                <!-- os produtos serão inseridos automaticamente aqui através da função setProdutos -->
             </div>
             <div>
                 <h2>conheça mais os nossos produtos</h2>
@@ -50,7 +40,7 @@
             </div>
         </section>
     </div>
-    <footer>
+    <footer id="footer">
         <div style="margin: 0;">
             <p>Formas de pagamento</p>
             <img src="img/footer/formas-2.png">
@@ -59,9 +49,7 @@
             <p>00.000.000/0000-00 <br> Rua São José de Algum Lugar <br> 12.345-678</p>
         </div>
         <div>
-            <p>Nossas Redes Sociais</p>
-            <!-- <a href="" onclick="popupMidias('WhastApp')"><img src="img/footer/whatsapp.png" alt="whatsapp"></a>
-            <a href="" onclick="popupMidias('Instagram')"><img src="img/footer/instagram.png" alt="whatsapp"></a> -->
+            <p>Clique e acesse nossas Redes Sociais!</p>
             <button onclick="popupMidias('WhastApp')" style="border: 0; background-color: rgba(255, 255, 255, 0);"><img src="img/footer/whatsapp.png"></button>
             <button onclick="popupMidias('Instagram')" style="border: 0; background-color: rgba(255, 255, 255, 0);"><img src="img/footer/instagram.png"></button>
         </div>
