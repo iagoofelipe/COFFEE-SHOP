@@ -6,7 +6,8 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
     json_produtos = JSON.parse(this.responseText);
-  }
+    setProdutos();
+}
 };
 
 xmlhttp.open("GET", "server/produtos.json", true);
